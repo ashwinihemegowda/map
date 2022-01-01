@@ -1,0 +1,44 @@
+2022-01-01 13:25:44.410  INFO 8720 --- [main] c.t.practce.PractceApplication           : Starting PractceApplication using Java 1.8.0 on THBSSTRLPT-160 with PID 8720 (C:\Users\ashwini_hemegowda\Downloads\practce\practce\target\classes started by ashwini_hemegowda in C:\Users\ashwini_hemegowda\Downloads\practce\practce)
+2022-01-01 13:25:44.420  INFO 8720 --- [main] c.t.practce.PractceApplication           : No active profile set, falling back to default profiles: default
+2022-01-01 13:25:45.386  INFO 8720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-01 13:25:45.451  INFO 8720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2022-01-01 13:25:46.262  INFO 8720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2022-01-01 13:25:46.278  INFO 8720 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-01 13:25:46.278  INFO 8720 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-01-01 13:25:46.411  INFO 8720 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-01 13:25:46.411  INFO 8720 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1886 ms
+2022-01-01 13:25:46.663  INFO 8720 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-01 13:25:46.750  INFO 8720 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-01-01 13:25:47.009  INFO 8720 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-01 13:25:47.140  INFO 8720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-01 13:25:47.144  WARN 8720 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-01 13:25:48.007  INFO 8720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-01 13:25:48.043  INFO 8720 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-01-01 13:25:48.949  INFO 8720 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-01 13:25:48.958  INFO 8720 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-01 13:25:49.445  WARN 8720 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-01 13:25:49.844  INFO 8720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2022-01-01 13:25:49.865  INFO 8720 --- [main] c.t.practce.PractceApplication           : Started PractceApplication in 6.079 seconds (JVM running for 6.599)
+2022-01-01 13:25:49.877  INFO 8720 --- [main] c.t.practce.PractceApplication           : stop
+2022-01-01 13:26:29.903  INFO 8720 --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-01 13:26:29.904  INFO 8720 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-01 13:26:29.907  INFO 8720 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-01-01 13:26:29.990  WARN 8720 --- [http-nio-8000-exec-1] c.t.p.controller.EmployeeController      : page404
+2022-01-01 13:26:31.343  WARN 8720 --- [http-nio-8000-exec-2] c.t.p.controller.EmployeeController      : page404
+2022-01-01 13:26:35.063  INFO 8720 --- [http-nio-8000-exec-3] c.t.p.controller.EmployeeController      : empList
+2022-01-01 13:26:35.064  INFO 8720 --- [http-nio-8000-exec-3] c.t.practce.service.EmployeeService      : getAllEmployee
+2022-01-01 13:26:37.689  WARN 8720 --- [http-nio-8000-exec-4] c.t.p.controller.EmployeeController      : page404
+2022-01-01 13:26:46.946  WARN 8720 --- [http-nio-8000-exec-7] c.t.p.controller.EmployeeController      : page404
+2022-01-01 13:26:46.973  WARN 8720 --- [http-nio-8000-exec-8] c.t.p.controller.EmployeeController      : page404
+2022-01-01 13:27:05.528  INFO 8720 --- [http-nio-8000-exec-1] c.t.p.controller.EmployeeController      : getEmpByIdram
+2022-01-01 13:27:05.529  INFO 8720 --- [http-nio-8000-exec-1] c.t.practce.service.EmployeeService      : getEmployeeByFirstName
+2022-01-01 13:27:05.615  WARN 8720 --- [http-nio-8000-exec-2] c.t.p.controller.EmployeeController      : page404
+2022-01-01 13:27:08.899  INFO 8720 --- [http-nio-8000-exec-6] c.t.p.controller.EmployeeController      : getEmpByIdramya
+2022-01-01 13:27:08.900  INFO 8720 --- [http-nio-8000-exec-6] c.t.practce.service.EmployeeService      : getEmployeeByFirstName
+2022-01-01 13:27:09.672  WARN 8720 --- [http-nio-8000-exec-5] c.t.p.controller.EmployeeController      : page404
+2022-01-01 13:27:24.934  INFO 8720 --- [http-nio-8000-exec-9] c.t.p.controller.EmployeeController      : getEmpById50000.0
+2022-01-01 13:27:24.935  INFO 8720 --- [http-nio-8000-exec-9] c.t.practce.service.EmployeeService      : getEmployeeBySalary
+2022-01-01 13:27:24.985  WARN 8720 --- [http-nio-8000-exec-10] c.t.p.controller.EmployeeController      : page404
+2022-01-01 13:30:38.546  INFO 8720 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-01 13:30:38.548  INFO 8720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-01 13:30:38.559  INFO 8720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
